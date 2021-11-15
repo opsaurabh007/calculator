@@ -1,0 +1,18 @@
+choice = input('''Type any Operation :
+1 for Addition(+)
+2 for Subtraction(-)
+3 for Multiplication(*)
+4 for Division(/)
+''')
+A = int(input("enter your first number "))
+B = int(input("enter your second number "))
+if choice == '1':
+    print(A + B)
+elif choice == '2':
+    print(A - B)
+elif choice == '3':
+    print(A * B)
+elif choice == '4':
+    print(A / B)
+else:
+    print("Choose given Operations")
